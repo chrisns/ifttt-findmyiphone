@@ -3,10 +3,10 @@
 to run do:
 ```
 docker run --restart=always -d \
-  -e SECRET_TOKEN=something_top_secret_only_you_know
-  -e SUBDOMAIN=something_unique
-  -e ICLOUDUSER=your_full_icloud_email_address
-  -e ICLOUDPASS=your_icloud_password
+  -e SECRET_TOKEN=something_top_secret_only_you_know \
+  -e SUBDOMAIN=something_unique \
+  -e ICLOUDUSER=your_full_icloud_email_address \
+  -e ICLOUDPASS=your_icloud_password \
   chrisns/ifttt-findmyiphone
 ```
 
