@@ -1,4 +1,4 @@
-FROM node:4.2.2
+FROM node:6-alpine
 
 ENV SECRET_TOKEN="somesupersecret"
 ENV SUBDOMAIN="mysubdomain"
