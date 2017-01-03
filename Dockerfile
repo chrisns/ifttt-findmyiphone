@@ -1,6 +1,6 @@
 FROM node:6-alpine
 
-RUN apk add curl
+RUN apk update && apk add --no-cache curl
 
 ENV SECRET_TOKEN="somesupersecret"
 ENV SUBDOMAIN="mysubdomain"
