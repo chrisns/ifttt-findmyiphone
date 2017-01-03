@@ -1,5 +1,7 @@
 FROM node:6-alpine
 
+RUN apk add curl
+
 ENV SECRET_TOKEN="somesupersecret"
 ENV SUBDOMAIN="mysubdomain"
 ENV ICLOUDUSER="me@mac.com"
