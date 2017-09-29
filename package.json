@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "MIT",
@@ -13,6 +15,8 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "localtunnel": "^1.8.1",
-    "node-icloud": "^1.0.0"
-  }
+    "node-icloud": "^1.0.0",
+    "snyk": "^1.41.1"
+  },
+  "snyk": true
 }
